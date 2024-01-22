@@ -1,0 +1,23 @@
+
+
+
+body{
+  box-sizing: border-box;
+  background-color: rgb(34, 33, 33) !important;
+}
+
+
+
+#root {
+  width: 980px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+
+.form-control:focus {
+  box-shadow: none !important; /* Adjust the width of the outline as needed */
+  /* Add any other styles you want for the focused state */
+  outline:none
+}
